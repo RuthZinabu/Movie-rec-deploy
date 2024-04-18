@@ -1,0 +1,152 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    height: 500px;
+    margin-top: 100px;
+    background: linear-gradient(2deg, rgb(254, 255, 255, 0.1), rgb(255, 255, 255, 0)  ) ;
+    padding-bottom: 30px;
+    border: 4px solid transparent;
+    /* transform: translate(-50%,-50%); */ 
+    border-image: linear-gradient(70deg, white, rgb(26, 255, 26)
+    );
+    border-image-slice: 1;
+   
+
+}
+.header{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+
+.text{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 20px;
+    
+}
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480;
+    height: 40px;
+    background: rgb(238, 222, 222);
+    border-radius: 20px;
+}
+.input input{
+    height: 50px;
+    width: 250px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(13, 26, 18);
+    font-size: 15px; 
+    margin-left: 20px;
+}
+
+.forgot-password{
+    margin-top: 27px;
+    color: rgb(234, 228, 217);
+    font-size: 18px;
+    margin-left: 1px;
+    margin-right: 0px;
+}
+
+.forgot-password span{
+    color: rgb(48, 247, 244);
+    cursor: pointer;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: aliceblue;
+    background: rgb(13, 231, 86);
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.submit-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    color: aliceblue;
+    background: rgb(7, 216, 24);
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 1300px;
+    opacity: 90%;
+    font-weight: bold;
+}
+
+.grey{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: aliceblue;
+    background: rgb(252, 4, 4);
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: 0.3s;
+    /* display: flex;
+    justify-content: center;
+    background: rgb(255, 0, 0);
+    align-items: center;
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 25px;
+    margin-left: 1300px;
+    opacity: 90%;
+    font-weight: bold; */
+}
+
+.grey2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    color: aliceblue;
+    background: rgb(252, 4, 4);
+    cursor: pointer;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.in{
+    opacity: 80%;
+    color: rgb(253, 0, 0);
+   
+}
+
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 30px auto;
+}
